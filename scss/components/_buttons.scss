@@ -1,0 +1,37 @@
+$color-frontman : #0077B6;
+$color-shields : #079ef0;
+$color-kits:#036194;
+$color-modulos:#025a8a;
+$button-hover: #c7c7c7;
+$color-border:#3c2eff;
+.button-boards{
+    background-color: $color-frontman;
+    @extend .btn;
+}
+.button-kits{
+    background-color: $color-kits;
+    @extend .btn;
+}
+.button-modulos{
+    background-color: $color-modulos;
+    @extend .btn;
+}
+.button-shiels{
+    background-color: $color-shields;
+    @extend .btn;
+}
+.btn{
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover{
+        background-color: $button-hover;
+        color: $color-frontman;
+        font-weight: 800;
+        border: 1px solid $color-border;
+        transition: all 0.25s;
+    }
+}

@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer {
+  background-color: #0077B6;
+  margin: 0 auto;
+  padding: 0% 10%;
+  border-radius: 30px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+img.icons {
+  max-width: 50px;
+  padding: 6px 6px;
+  border-radius: 12px;
+  background-color: #00B4D8;
+}
+
+a.foot-tags {
+  color: #ffffff;
+}
+
+header .navbar {
+  background-color: #0077B6 !important;
+  border-radius: 10px;
+}
+header .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+}
+header .logo {
+  font-weight: 800;
+  font-size: 42px;
+  color: #ffffff;
+  padding: 2% 5% 2% 2%;
+  text-decoration: none;
+}
+
+main .row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 5% 0% 0% 5%;
+  color: #53525c;
+}
+
+div .card {
+  text-align: center;
+  font-weight: 700;
+  width: 25rem;
+}
+div .info-container {
+  display: flex;
+  flex-direction: row;
+  border: 0;
+}
+div .cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-boards {
+  background-color: #0077B6;
+}
+
+.button-kits {
+  background-color: #036194;
+}
+
+.button-modulos {
+  background-color: #025a8a;
+}
+
+.button-shiels {
+  background-color: #079ef0;
+}
+
+.btn, .button-boards, .button-kits, .button-modulos, .button-shiels {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn:hover, .button-boards:hover, .button-kits:hover, .button-modulos:hover, .button-shiels:hover {
+  background-color: #c7c7c7;
+  color: #0077B6;
+  font-weight: 800;
+  border: 1px solid #3c2eff;
+  transition: all 0.25s;
+}
+
+/*# sourceMappingURL=style.css.map */

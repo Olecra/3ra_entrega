@@ -8,12 +8,25 @@ main {
 		display: flex;
 		justify-content: center;
 	}
+	.topics{
+		margin: 5%;
+	}
 }
 
 h1 {
 	font-size: 35px;
 	font-weight: 800;
 	padding: 5% 0% 0% 5%;
+	color: #53525c;
+}
+h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #53525c;
+}
+h3{
+	font-size: 20px;
+	font-weight: 400;
 	color: #53525c;
 }
 div {

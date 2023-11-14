@@ -2,6 +2,16 @@
 	display: $dis;
 	flex-direction: $flow;
 }
+$light-theme: true;
+@mixin theme-colors {
+  @if $light-theme {
+    background-color: #f2ece4;
+    color: #036;
+  } @else {
+    background-color: #6b717f;
+    color: #d2e1dd;
+  }
+}
 main {
 	margin-bottom: 60px;
 	.row {
@@ -33,7 +43,7 @@ div {
 	.card {
 		text-align: center;
 		font-weight: 700;
-		width: 25rem;
+		width: 20rem;
 	}
 	.info-container {
 		@include flexit(flex, row );
